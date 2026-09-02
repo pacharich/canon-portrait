@@ -22,37 +22,50 @@ const NA = '—';
 // 候補モデル 女性4名（ユイ／モカ／ゆりな／みき）
 // 【叩き台】プロフィール詳細は今夜共有予定 → 数値・実績を後から差し替え。
 const FEMALES = [
+  // 1. ユイ（前回「アコールローリエ」案件の「ゆい」と同一プロフィール／動画／出演実績をベースに反映。
+  //    名称のみ ゆい→ユイ。※写真・動画実績・出演実績は今後 少々追加・修正予定）
   {
-    id: 'yui', name: 'ユイ', age: PLACEHOLDER,
-    height: PLACEHOLDER, size: PLACEHOLDER,
-    shoe: null, exp: NA, location: PLACEHOLDER,
-    videos: [],                       // 動画URL（YouTube）が届いたら追加
+    id: 'yui', name: 'ユイ', age: 26,
+    height: 157.8, size: NA, shoe: null, exp: NA, location: '東京都板橋区',
+    extra: [['体重', '43kg']],
+    videos: ['https://youtube.com/shorts/flXNOUvtkCw'],
     achievementTitle: '出演実績',
-    achievements: ['情報待ち（実績が届き次第、記載）'],
+    achievements: [
+      'CanCam兼andGIRL 読者モデル', '東京プリンスホテル様／SNS広告', 'オーマイティース様／SNS広告',
+      '株式会社タップル様／SNS広告', 'JR東海様／SNS広告', '長谷工ジョブクリエイト様／SNS広告・LP・HP',
+      'しまむら様／SNS広告・紙チラシ・店頭POP', '東京カレンダー様／SNS広告', 'nouvelle様／SNS広告',
+      'ディープラス様／SNS広告', '3rd inc.様／SNS広告・LP', 'HBL様／SNS広告・LP',
+      '花王様（suisai）／SNS広告・ドンキホーテサイネージ・LP', 'ルミネ様／SNS広告', 'シャドテン様／SNS広告',
+      'freee様／SNS広告', 'PATRIC様／SNS広告', 'ユンス様／SNS広告', 'ロペピクニック様／SNS広告', 'オルビス様／SNS広告'
+    ]
   },
+  // 2. モカ（プロフィール別途共有 → 情報待ち）
   {
     id: 'moka', name: 'モカ', age: PLACEHOLDER,
     height: PLACEHOLDER, size: PLACEHOLDER,
     shoe: null, exp: NA, location: PLACEHOLDER,
     videos: [],
     achievementTitle: '出演実績',
-    achievements: ['情報待ち（実績が届き次第、記載）'],
+    achievements: ['情報待ち（プロフィール・実績が届き次第、記載）'],
   },
+  // 3. ユリナ（前回「アコールローリエ」案件の「ゆりな」と同一プロフィール／動画／実績をベースに反映。
+  //    名称のみ ゆりな→ユリナ）
   {
-    id: 'yurina', name: 'ゆりな', age: PLACEHOLDER,
+    id: 'yurina', name: 'ユリナ', age: 24,
+    height: 168, size: NA, shoe: null, exp: NA, location: '東京都（兵庫県神戸市出身）',
+    extra: [['体重', '45kg']],
+    videos: ['https://youtu.be/anvPe6D9MTY'],
+    achievementTitle: '実績',
+    achievements: ['wabiwasou', 'platinum dress style', 'studio arc', 'faccie ウェディング', 'FORTE BRIDAL']
+  },
+  // 4. ミキ（プロフィール別途共有 → 情報待ち）
+  {
+    id: 'miki', name: 'ミキ', age: PLACEHOLDER,
     height: PLACEHOLDER, size: PLACEHOLDER,
     shoe: null, exp: NA, location: PLACEHOLDER,
     videos: [],
     achievementTitle: '出演実績',
-    achievements: ['情報待ち（実績が届き次第、記載）'],
-  },
-  {
-    id: 'miki', name: 'みき', age: PLACEHOLDER,
-    height: PLACEHOLDER, size: PLACEHOLDER,
-    shoe: null, exp: NA, location: PLACEHOLDER,
-    videos: [],
-    achievementTitle: '出演実績',
-    achievements: ['情報待ち（実績が届き次第、記載）'],
+    achievements: ['情報待ち（プロフィール・実績が届き次第、記載）'],
   },
 ];
 
