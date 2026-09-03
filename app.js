@@ -39,24 +39,58 @@ const FEMALES = [
       'freee様／SNS広告', 'PATRIC様／SNS広告', 'ユンス様／SNS広告', 'ロペピクニック様／SNS広告', 'オルビス様／SNS広告'
     ]
   },
-  // 2. モカ（プロフィール別途共有 → 情報待ち）
+  // 2. モカ（1998/03/30生）
   {
-    id: 'moka', name: 'モカ', age: PLACEHOLDER,
-    height: PLACEHOLDER, size: PLACEHOLDER,
-    shoe: null, exp: NA, location: PLACEHOLDER,
+    id: 'moka', name: 'モカ', age: 28,
+    height: 163, size: 'B 84cm / W 62cm / H 87cm',
+    shoe: null, exp: NA, location: '東京都',
+    extra: [['体重', '48kg']],
     videos: [],
     achievementTitle: '出演実績',
-    achievements: ['情報待ち（プロフィール・実績が届き次第、記載）'],
+    achievementSections: [
+      { title: '出演実績', items: [
+        'TBS×Netflix 恋愛リアリティショー「未来日記」Season2' ] },
+      { title: 'スチール', items: [
+        'KEYUCA アパレルモデル', 'SONY ワイヤレスイヤホン イメージ', 'Softbank ホームページ',
+        'カラオケ歌広場 求人広告', '築地銀だこ メニュー表紙', 'ドン・キホーテ サンタコス表紙',
+        'FAV LUX 長崎 ホームページ', 'Oh my teeth メインビジュアル', '浅草ビューホテル ブライダルモデル',
+        'VIVOVIVA 石垣島 ホームページ', 'おふろの王様 ホームページ', 'グランスノー奥伊吹',
+        'オートテクニックジャパン ホームページ', 'シェラトングランデトーキョーベイ',
+        'ギオンデリバリーサービス ホームページ', '山と渓谷 2022年9月号', 'SAUNEA白州 ホームページ',
+        'kashika京都北山 ホームページ' ] },
+      { title: 'ムービー', items: [
+        'BULK HOMME', 'MEDULLA', 'アクアパーク品川', 'ふじてんスノーリゾート',
+        'KUDOCHI SAUNA', 'tondemi', 'シギラセブンマイルズリゾート', 'ヨドバシカメラ Akiba' ] }
+    ]
   },
-  // 3. ユリナ（前回「アコールローリエ」案件の「ゆりな」と同一プロフィール／動画／実績をベースに反映。
-  //    名称のみ ゆりな→ユリナ）
+  // 3. ユリナ（2001/12/13生。プロフィール・芸歴を最新のコンポジット内容で反映）
   {
     id: 'yurina', name: 'ユリナ', age: 24,
-    height: 168, size: NA, shoe: null, exp: NA, location: '東京都（兵庫県神戸市出身）',
+    height: 168, size: 'B 79cm / W 58cm / H 85cm',
+    shoe: null, exp: NA, location: '東京都（兵庫県神戸市出身）',
     extra: [['体重', '45kg']],
     videos: ['https://youtu.be/anvPe6D9MTY'],
-    achievementTitle: '実績',
-    achievements: ['wabiwasou', 'platinum dress style', 'studio arc', 'faccie ウェディング', 'FORTE BRIDAL']
+    achievementTitle: '芸歴 / CAREER',
+    achievementSections: [
+      { title: 'MAGAZINE & WEB', items: [
+        '『ar』公式SNSモデル（2023年12月〜現在）',
+        '『ar』(主婦と生活社) 誌面掲載（2023年5月号／2024年9月号・12月合併号）',
+        '『CanCam』(小学館) 誌面掲載（2023年3月号／10月号）',
+        '『リアルオーダーヘアブック 2023最新版』表紙モデル',
+        'リリアージュ「’24 Autumn Collection」' ] },
+      { title: 'BRIDAL', items: [
+        'wabiwasou（香港ロケ撮影含む）', 'PLATINUM DRESS STYLE', 'STUDIO ARC',
+        'faccie wedding', 'FORTE BRIDAL' ] },
+      { title: 'ADVERTISING & WEB CM', items: [
+        'KADOKAWA「春の還元祭2026」キャンペーン動画', 'デジャヴュ SNSリール広告モデル',
+        'TESCOM 広告', 'bareMinerals 日本公式Instagram広告', '洋服の青山 SNS広告',
+        'oggi otto ドライヤープロモーション広告', 'ミルボン ラシカル広告', 'nwm(ヌーム) SNS広告',
+        'KOIZUMI 広告', 'nifty colors 広告', 'HBL(HOLLYWOOD BROW LIFT) 広告', 'アトリエはるか 広告',
+        'UCC上島珈琲「UCC COLD BREW」WebCM（池田エライザ監督）' ] },
+      { title: 'TV & MOVIE & OTHER', items: [
+        '『BeauTV-VOCE』(テレビ朝日)', 'ROCK KIDS 802 ショートムービー',
+        '第3回 CONOMI 制服アワード 審査員特別賞' ] }
+    ]
   },
   // 4. ミキ（プロフィール別途共有 → 情報待ち）
   {
