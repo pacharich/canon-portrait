@@ -13,6 +13,7 @@ const AVAILABILITY = {
   moka:   [{ date: '9/28（月）本撮影', status: 'pending' }, { date: '9/29（火）予備', status: 'pending' }, { date: '9/30（水）予備', status: 'pending' }],
   yurina: [{ date: '9/28（月）本撮影', status: 'pending' }, { date: '9/29（火）予備', status: 'pending' }, { date: '9/30（水）予備', status: 'pending' }],
   miki:   [{ date: '9/28（月）本撮影', status: 'pending' }, { date: '9/29（火）予備', status: 'pending' }, { date: '9/30（水）予備', status: 'pending' }],
+  ai:     [{ date: '9/28（月）本撮影', status: 'pending' }, { date: '9/29（火）予備', status: 'pending' }, { date: '9/30（水）予備', status: 'pending' }],
 };
 
 const PLACEHOLDER = '情報待ち';
@@ -121,6 +122,25 @@ const FEMALES = [
       { title: 'イベント', items: [
         '筑波サーキット レースクイーン 2020〜2023', 'kross×over 21 ラウンドガール',
         'Yahoo!検索大賞 2019 ごちゃまぜコーデ 被写体モデル', '東京モーターショー 2019 東海理化' ] }
+    ]
+  },
+  // 5. アイ（1999/05/18生）※実績リストは一部のみ受領。全項目届き次第、追記予定。
+  {
+    id: 'ai', name: 'アイ', age: 27,
+    height: 162, size: 'B 84cm / W 59cm / H 85cm',
+    shoe: '24.0cm', exp: NA, location: '東京都',
+    extra: [],
+    videos: [],
+    achievementTitle: '出演実績',
+    achievementSections: [
+      { title: '広告', items: [
+        '共立美容外科／WEB広告出演（2023年）',
+        'QEEN’S WAX／WEB広告出演（2023年）',
+        '癒し〜ぶ／YouTube出演（2024年）' ] },
+      { title: 'ショー', items: [
+        'ランウェイ　3ステージ出演' ] },
+      { title: 'その他', items: [
+        'サロン、メイクモデル等' ] }
     ]
   },
 ];
