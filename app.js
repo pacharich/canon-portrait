@@ -92,14 +92,36 @@ const FEMALES = [
         '第3回 CONOMI 制服アワード 審査員特別賞' ] }
     ]
   },
-  // 4. ミキ（プロフィール別途共有 → 情報待ち）
+  // 4. ミキ（1994/05/28生）
   {
-    id: 'miki', name: 'ミキ', age: PLACEHOLDER,
-    height: PLACEHOLDER, size: PLACEHOLDER,
-    shoe: null, exp: NA, location: PLACEHOLDER,
+    id: 'miki', name: 'ミキ', age: 32,
+    height: 160, size: 'B 85cm / W 61cm / H 86cm',
+    shoe: '23.0cm', clothesSize: 'Mサイズ', exp: NA, location: '東京都',
+    extra: [['体重', '42kg']],
     videos: [],
     achievementTitle: '出演実績',
-    achievements: ['情報待ち（プロフィール・実績が届き次第、記載）'],
+    achievementSections: [
+      { title: 'ミスコン', items: [
+        'ミスワイン2018 日本大会ファイナリスト', '第13回 真心笑顔美人 ファイナリスト',
+        'ミスアース2019 埼玉大会ファイナリスト' ] },
+      { title: 'TV', items: [
+        '本田ヒルズクリニック CM', 'パンテーン ミラクルズ', 'ガリレオX〜顔の科学〜 顔モデル',
+        '通販番組 テレマルシェ', '某通販 ネックシャツ着用モデル' ] },
+      { title: '誌面モデル', items: [
+        'ガールズバイカー 表紙', '大手生命保険会社 月刊誌 美容ヘアメイク特集',
+        '文藝春秋 梅こんぶ広告 雑誌掲載', '雑誌LDK ストレッチ特集',
+        'アミューズメントパーク 制服 カタログ', 'リバーサルジム チラシ' ] },
+      { title: 'Web出演（メイン出演のみ記載）', items: [
+        '東京スカイツリー 公式YouTube「涼」',
+        'タカラトミー おうちにポケモン PIKACHU 2024 イメージモデル',
+        'タカラトミー おうちにポケモン EIEVUI 2025 イメージモデル',
+        'ハーモニーグリーン スキンケアPV (How to)' ] },
+      { title: '広告', items: [
+        'マイナビ進学', 'ベルミス', 'バイク王' ] },
+      { title: 'イベント', items: [
+        '筑波サーキット レースクイーン 2020〜2023', 'kross×over 21 ラウンドガール',
+        'Yahoo!検索大賞 2019 ごちゃまぜコーデ 被写体モデル', '東京モーターショー 2019 東海理化' ] }
+    ]
   },
 ];
 
