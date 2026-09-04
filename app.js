@@ -27,7 +27,7 @@ const FEMALES = [
   //    名称のみ ゆい→ユイ。※写真・動画実績・出演実績は今後 少々追加・修正予定）
   {
     id: 'yui', name: 'ユイ', age: 26,
-    height: 157.8, size: NA, shoe: null, exp: NA, location: '東京都板橋区',
+    height: 157.8, size: '非公開', shoe: null, exp: NA, location: '東京都板橋区',
     extra: [['体重', '43kg']],
     videos: ['https://youtube.com/shorts/flXNOUvtkCw'],
     achievementTitle: '出演実績',
