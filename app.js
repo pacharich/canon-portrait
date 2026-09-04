@@ -46,7 +46,7 @@ const FEMALES = [
     height: 163, size: 'B 84cm / W 62cm / H 87cm',
     shoe: null, exp: NA, location: '東京都',
     extra: [['体重', '48kg']],
-    videos: [],
+    videos: ['https://youtube.com/shorts/IuwVmCBWxNM'],
     achievementTitle: '出演実績',
     achievementSections: [
       { title: '出演実績', items: [
@@ -70,7 +70,7 @@ const FEMALES = [
     height: 168, size: 'B 79cm / W 58cm / H 85cm',
     shoe: null, exp: NA, location: '東京都（兵庫県神戸市出身）',
     extra: [['体重', '45kg']],
-    videos: ['https://youtu.be/anvPe6D9MTY'],
+    videos: ['https://youtu.be/anvPe6D9MTY', 'https://youtu.be/6hD-Q8cO9XA'],
     achievementTitle: '芸歴 / CAREER',
     achievementSections: [
       { title: 'MAGAZINE & WEB', items: [
@@ -99,7 +99,7 @@ const FEMALES = [
     height: 160, size: 'B 85cm / W 61cm / H 86cm',
     shoe: '23.0cm', clothesSize: 'Mサイズ', exp: NA, location: '東京都',
     extra: [['体重', '42kg']],
-    videos: [],
+    videos: ['https://youtube.com/shorts/kXTf0U_0560'],
     achievementTitle: '出演実績',
     achievementSections: [
       { title: 'ミスコン', items: [
@@ -124,23 +124,27 @@ const FEMALES = [
         'Yahoo!検索大賞 2019 ごちゃまぜコーデ 被写体モデル', '東京モーターショー 2019 東海理化' ] }
     ]
   },
-  // 5. アイ（1999/05/18生）※実績リストは一部のみ受領。全項目届き次第、追記予定。
+  // 5. アイ（1999/05/18生）※出演実績は本人希望により 9/4 に全面差し替え。
   {
     id: 'ai', name: 'アイ', age: 27,
     height: 162, size: 'B 84cm / W 59cm / H 85cm',
     shoe: '24.0cm', exp: NA, location: '東京都',
     extra: [],
-    videos: [],
-    achievementTitle: '出演実績',
+    videos: ['https://youtu.be/VKIoEIuxl8g'],
+    achievementTitle: '出演実績 ／ BEAUTY・ADVERTISING・WEB MOVIE',
     achievementSections: [
-      { title: '広告', items: [
-        '共立美容外科／WEB広告出演（2023年）',
-        'QEEN’S WAX／WEB広告出演（2023年）',
-        '癒し〜ぶ／YouTube出演（2024年）' ] },
-      { title: 'ショー', items: [
-        'ランウェイ　3ステージ出演' ] },
-      { title: 'その他', items: [
-        'サロン、メイクモデル等' ] }
+      { title: 'CM・広告', items: [
+        '三菱倉庫（CM）', 'Aカード（CM）', 'KDDI PONTAパス（WEB広告）',
+        'パナソニックホームズ（PR映像）', 'BASE BREAD（広告）', 'JT（WEB）' ] },
+      { title: 'BEAUTY / MEDICAL', items: [
+        'TCB東京中央美容外科（WEB広告）', 'AGAスキンクリニックレディース（WEB広告）',
+        'MEDULLA ソニックシャンプー（広告）', 'VIAGE（広告）', 'UNDEUX SUPERBODY（広告）' ] },
+      { title: 'WEB / PROMOTION', items: [
+        '日野自動車 デュトロ（商品紹介動画）', 'DAIKEN（SNS動画）', 'バイク王（LP広告）' ] },
+      { title: 'STILL / POSTER', items: [
+        '明治（ポスター）', 'ユニ・チャーム（シルコット）', 'ATELIER ÉCRAT' ] },
+      { title: 'CORPORATE / VP', items: [
+        '医療・美容・住宅・ライフスタイル領域など多数出演' ] }
     ]
   },
 ];
